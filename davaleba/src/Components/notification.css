@@ -1,8 +1,15 @@
+
+body{
+    background:  #191A1D;
+}
+
+
 .container{
    
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:normal;
 
 }
 
@@ -11,7 +18,7 @@
 background: #2F3032;
 border-radius: 20px;
 width: 600px;
-height: 121px;
+height: 200px;
 margin-left: 400px;
 
 
@@ -21,10 +28,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 36px;
 line-height: 54px;
-display: flex;
+
 align-items: center;
 color: #FFFFFF;
-text-align:right;
+margin-left: 150px;
+
+
 
 }
 
@@ -35,4 +44,71 @@ font-weight: 400;
 font-size: 24px;
 line-height: 36px;
 color: #FFFFFF;
+margin-left: 150px;
+}
+.greens{
+    margin:80px;
+    width: 110px;
+    position: absolute;
+    top:0px;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.yellows{
+    width: 110px;
+   position: absolute;
+   margin-top: -150px;
+   margin-left: 20px;
+
+}
+
+.blues{
+   width: 110px;
+   position: absolute;
+   margin-top: -150px;
+   margin-left: 20px;
+}
+
+.reds{
+    width: 110px;
+   position: absolute;
+   margin-top: -150px;
+   margin-left: 20px;
+}
+
+.icons{
+    width: 60px;
+   position: absolute;
+   margin-top: -110px;
+   margin-left: 40px;
+}
+
+.icones{
+    width: 60px;
+    position: absolute;
+    margin-top: -123px;
+   margin-left: 45px;
+}
+
+.iconess{
+    width: 60px;
+    position: absolute;
+    margin-top: -123px;
+   margin-left: 45px;
+}
+
+.iconesss{
+    width: 60px;
+    position: absolute;
+    margin-top: -123px;
+   margin-left: 45px;
+}
+.columns{
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -200px;
+    top:0px;
+    margin-top:40px;
+
 }
