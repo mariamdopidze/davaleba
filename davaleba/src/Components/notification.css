@@ -1,0 +1,38 @@
+.container{
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+
+}
+
+
+.box{
+background: #2F3032;
+border-radius: 20px;
+width: 600px;
+height: 121px;
+margin-left: 400px;
+
+
+}
+.title{
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+text-align:right;
+
+}
+
+.text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+}
